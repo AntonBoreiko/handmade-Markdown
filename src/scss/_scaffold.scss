@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #999;
+}
+textarea {
+  min-height: 540px;
+}
+.card {
+  display: inline-block;
+  width: 49%;
+}
+
+// зеленый фон
+.text-success {
+  background: rgb(54, 202, 54);
+}
+.text-danger {
+  background: rgb(250, 54, 54);
+}
+#textArea {
+  width: 100%;
+}
